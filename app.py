@@ -13,8 +13,8 @@ import os
 
 app = Flask(__name__)
 
-line_bot_api = LineBotApi('YOUR_ACESS_TOKEN')
-handler = WebhookHandler('CHANNEL_SECRET')
+line_bot_api = LineBotApi("VYkCP0EWI35XWo/TMhYx9grz4OGqaTu/8hHalp4i4jdQV7Rdeb3OTOAYx3Xl6j4idsLNAhcH+pFfzsqkwS4BYY0CmbO2mEPnD+BBpjcArUgbWmsugUiXullqm/qGPmqQ1t+ioB+/CsCbnPaVTHpI5QdB04t89/1O/w1cDnyilFU=")
+handler = WebhookHandler("54ae860fc81c283e6401748493be167d")
 
 @app.route("/")
 def hello_world():
